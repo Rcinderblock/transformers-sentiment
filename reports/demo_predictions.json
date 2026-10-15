@@ -1,0 +1,96 @@
+{
+  "fine_tuned": [
+    {
+      "text": "This movie was absolutely fantastic!",
+      "prediction": 1,
+      "label": "Positive",
+      "probabilities": {
+        "Negative": 0.0511285699903965,
+        "Positive": 0.9488714337348938
+      }
+    },
+    {
+      "text": "Terrible, waste of my time.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.9441494941711426,
+        "Positive": 0.05585053190588951
+      }
+    },
+    {
+      "text": "It was okay, nothing special.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.7494542002677917,
+        "Positive": 0.25054576992988586
+      }
+    },
+    {
+      "text": "Best film I've seen this year!",
+      "prediction": 1,
+      "label": "Positive",
+      "probabilities": {
+        "Negative": 0.1722370684146881,
+        "Positive": 0.8277629613876343
+      }
+    },
+    {
+      "text": "Boring and too long.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.9441065788269043,
+        "Positive": 0.055893391370773315
+      }
+    }
+  ],
+  "baseline": [
+    {
+      "text": "This movie was absolutely fantastic!",
+      "prediction": 1,
+      "label": "Positive",
+      "probabilities": {
+        "Negative": 0.008999049663543701,
+        "Positive": 0.9910009503364563
+      }
+    },
+    {
+      "text": "Terrible, waste of my time.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.9903624653816223,
+        "Positive": 0.009637533687055111
+      }
+    },
+    {
+      "text": "It was okay, nothing special.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.6170594096183777,
+        "Positive": 0.3829405903816223
+      }
+    },
+    {
+      "text": "Best film I've seen this year!",
+      "prediction": 1,
+      "label": "Positive",
+      "probabilities": {
+        "Negative": 0.0035990476608276367,
+        "Positive": 0.9964009523391724
+      }
+    },
+    {
+      "text": "Boring and too long.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.9909030795097351,
+        "Positive": 0.009096927009522915
+      }
+    }
+  ]
+}

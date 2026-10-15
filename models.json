@@ -1,0 +1,12 @@
+{
+  "url": "https://github.com/Rcinderblock/transformers-sentiment/releases/download/v1.0.0/models.tar.gz",
+  "sha256": "ccb03d905cf174d6b080ceb22efc683ac0f063cbdd6b2fbb10fe3342d6478bec",
+  "bytes": 247315600,
+  "base_model": "distilbert/distilbert-base-uncased",
+  "base_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "best_epoch": 2,
+  "classes": {
+    "0": "Negative",
+    "1": "Positive"
+  }
+}

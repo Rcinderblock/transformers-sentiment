@@ -1,0 +1,89 @@
+{
+  "fine_tuned": {
+    "accuracy": 0.8425,
+    "macro_f1": 0.8424517508486974,
+    "classification_report": {
+      "Negative": {
+        "precision": 0.8549222797927462,
+        "recall": 0.825,
+        "f1-score": 0.8396946564885496,
+        "support": 200.0
+      },
+      "Positive": {
+        "precision": 0.8309178743961353,
+        "recall": 0.86,
+        "f1-score": 0.8452088452088452,
+        "support": 200.0
+      },
+      "accuracy": 0.8425,
+      "macro avg": {
+        "precision": 0.8429200770944407,
+        "recall": 0.8425,
+        "f1-score": 0.8424517508486974,
+        "support": 400.0
+      },
+      "weighted avg": {
+        "precision": 0.8429200770944408,
+        "recall": 0.8425,
+        "f1-score": 0.8424517508486974,
+        "support": 400.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        165,
+        35
+      ],
+      [
+        28,
+        172
+      ]
+    ]
+  },
+  "baseline": {
+    "accuracy": 0.795,
+    "macro_f1": 0.7949948748718718,
+    "classification_report": {
+      "Negative": {
+        "precision": 0.797979797979798,
+        "recall": 0.79,
+        "f1-score": 0.7939698492462312,
+        "support": 200.0
+      },
+      "Positive": {
+        "precision": 0.7920792079207921,
+        "recall": 0.8,
+        "f1-score": 0.7960199004975125,
+        "support": 200.0
+      },
+      "accuracy": 0.795,
+      "macro avg": {
+        "precision": 0.7950295029502951,
+        "recall": 0.795,
+        "f1-score": 0.7949948748718718,
+        "support": 400.0
+      },
+      "weighted avg": {
+        "precision": 0.7950295029502951,
+        "recall": 0.795,
+        "f1-score": 0.7949948748718718,
+        "support": 400.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        158,
+        42
+      ],
+      [
+        40,
+        160
+      ]
+    ]
+  },
+  "split": "test",
+  "test_size": 400,
+  "test_sha256": "f7916127f954c4c3fa4dd377636187ecd79cb0a9261dfc9096e94a4e235a9df9",
+  "macro_f1_difference": 0.047456875976825574,
+  "relative_f1_improvement_percent": 5.9694568451745225
+}

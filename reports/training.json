@@ -1,0 +1,65 @@
+{
+  "model": "distilbert/distilbert-base-uncased",
+  "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "max_length": 128,
+  "seed": 42,
+  "device": "mps",
+  "epochs": 3,
+  "best_epoch": 2,
+  "best_validation_macro_f1": 0.8422782037239869,
+  "seconds": 161.41463987505995,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5660399301350116,
+      "validation_accuracy": 0.8225,
+      "validation_macro_f1": 0.8220986099887873
+    },
+    {
+      "epoch": 2,
+      "loss": 0.29777753688395026,
+      "validation_accuracy": 0.8425,
+      "validation_macro_f1": 0.8422782037239869
+    },
+    {
+      "epoch": 3,
+      "loss": 0.1513057879731059,
+      "validation_accuracy": 0.8325,
+      "validation_macro_f1": 0.832498953118457
+    }
+  ],
+  "data_manifest": {
+    "source": "stanfordnlp/imdb",
+    "revision": "e6281661ce1c48d982bc483cf8a173c1bbeb5d31",
+    "seed": 42,
+    "main_size": 2000,
+    "test_fraction": 0.2,
+    "validation_source": "independent official test pool",
+    "splits": {
+      "train": {
+        "rows": 1600,
+        "labels": {
+          "1": 800,
+          "0": 800
+        },
+        "sha256": "1c53520471ace8ddca73fa1f2dd75865538e9eaf7317aefdd53c4a6a5cfcf7de"
+      },
+      "validation": {
+        "rows": 400,
+        "labels": {
+          "1": 200,
+          "0": 200
+        },
+        "sha256": "93f00ae424399766e157efe49602ef628f593179719041144d5f6cd923f69fa4"
+      },
+      "test": {
+        "rows": 400,
+        "labels": {
+          "0": 200,
+          "1": 200
+        },
+        "sha256": "f7916127f954c4c3fa4dd377636187ecd79cb0a9261dfc9096e94a4e235a9df9"
+      }
+    }
+  }
+}

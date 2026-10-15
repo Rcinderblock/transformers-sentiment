@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+.env*
+data/*.csv
+fine_tuned_model/
+baseline_model.pkl
+vectorizer.pkl
+reports/test_predictions.csv
+output/
+*.tar.gz

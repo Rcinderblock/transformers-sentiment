@@ -1,0 +1,22 @@
+{
+  "test_size": 400,
+  "errors": 63,
+  "false_positives": 35,
+  "false_negatives": 28,
+  "mean_text_length": 1298.0625,
+  "mean_error_length": 1602.2063492063492,
+  "fp_ids": [
+    "imdb-train-4383",
+    "imdb-train-10474",
+    "imdb-train-9751",
+    "imdb-train-8461",
+    "imdb-train-11316"
+  ],
+  "fn_ids": [
+    "imdb-train-17347",
+    "imdb-train-20287",
+    "imdb-train-21469",
+    "imdb-train-19391",
+    "imdb-train-18766"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "vocab_size": 30522,
+  "model_max_length": 512,
+  "input_ids": [
+    101,
+    2023,
+    3185,
+    2001,
+    7078,
+    6429,
+    999,
+    102
+  ],
+  "token_count": 8,
+  "decoded": "[CLS] this movie was absolutely amazing! [SEP]",
+  "batch_shape": [
+    2,
+    9
+  ],
+  "attention_mask": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "special_tokens": {
+    "cls": {
+      "token": "[CLS]",
+      "id": 101
+    },
+    "sep": {
+      "token": "[SEP]",
+      "id": 102
+    },
+    "pad": {
+      "token": "[PAD]",
+      "id": 0
+    }
+  },
+  "explanation": {
+    "text": "Transformers are amazing!",
+    "tokens": [
+      "transformers",
+      "are",
+      "amazing",
+      "!"
+    ],
+    "ids": [
+      19081,
+      2024,
+      6429,
+      999
+    ],
+    "count": 4,
+    "with_special_tokens": [
+      101,
+      19081,
+      2024,
+      6429,
+      999,
+      102
+    ]
+  }
+}

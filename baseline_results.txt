@@ -1,0 +1,31 @@
+Baseline: test
+Accuracy: 0.795000
+Macro F1: 0.794995
+
+{
+  "Negative": {
+    "precision": 0.797979797979798,
+    "recall": 0.79,
+    "f1-score": 0.7939698492462312,
+    "support": 200.0
+  },
+  "Positive": {
+    "precision": 0.7920792079207921,
+    "recall": 0.8,
+    "f1-score": 0.7960199004975125,
+    "support": 200.0
+  },
+  "accuracy": 0.795,
+  "macro avg": {
+    "precision": 0.7950295029502951,
+    "recall": 0.795,
+    "f1-score": 0.7949948748718718,
+    "support": 400.0
+  },
+  "weighted avg": {
+    "precision": 0.7950295029502951,
+    "recall": 0.795,
+    "f1-score": 0.7949948748718718,
+    "support": 400.0
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "architecture": "DistilBertModel(\n  (embeddings): Embeddings(\n    (word_embeddings): Embedding(30522, 768, padding_idx=0)\n    (position_embeddings): Embedding(512, 768)\n    (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True, bias=True)\n    (dropout): Dropout(p=0.1, inplace=False)\n  )\n  (transformer): Transformer(\n    (layer): ModuleList(\n      (0-5): 6 x TransformerBlock(\n        (attention): DistilBertSdpaAttention(\n          (dropout): Dropout(p=0.1, inplace=False)\n          (q_lin): Linear(in_features=768, out_features=768, bias=True)\n          (k_lin): Linear(in_features=768, out_features=768, bias=True)\n          (v_lin): Linear(in_features=768, out_features=768, bias=True)\n          (out_lin): Linear(in_features=768, out_features=768, bias=True)\n        )\n        (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True, bias=True)\n        (ffn): FFN(\n          (dropout): Dropout(p=0.1, inplace=False)\n          (lin1): Linear(in_features=768, out_features=3072, bias=True)\n          (lin2): Linear(in_features=3072, out_features=768, bias=True)\n          (activation): GELUActivation()\n        )\n        (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True, bias=True)\n      )\n    )\n  )\n)",
+  "output_type": "BaseModelOutput",
+  "last_hidden_state_shape": [
+    1,
+    8,
+    768
+  ],
+  "cls_shape": [
+    1,
+    768
+  ],
+  "first_five_values": [
+    0.06822215020656586,
+    -0.06854396313428879,
+    0.19183890521526337,
+    0.013865774497389793,
+    -0.05439786985516548
+  ],
+  "embeddings_shape": [
+    4,
+    768
+  ],
+  "hidden_state_shapes": [
+    [
+      1,
+      8,
+      768
+    ],
+    [
+      1,
+      8,
+      768
+    ],
+    [
+      1,
+      8,
+      768
+    ],
+    [
+      1,
+      8,
+      768
+    ],
+    [
+      1,
+      8,
+      768
+    ],
+    [
+      1,
+      8,
+      768
+    ],
+    [
+      1,
+      8,
+      768
+    ]
+  ],
+  "similarity": {
+    "same_sentiment": 0.9954952597618103,
+    "different_sentiment": 0.9838497042655945
+  }
+}

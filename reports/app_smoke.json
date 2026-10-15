@@ -1,0 +1,24 @@
+{
+  "predictions": [
+    {
+      "text": "I loved this wonderful movie. The actors were excellent.",
+      "prediction": 1,
+      "label": "Positive",
+      "probabilities": {
+        "Negative": 0.03037780523300171,
+        "Positive": 0.9696221947669983
+      }
+    },
+    {
+      "text": "This film was horrible, boring and a complete waste of time.",
+      "prediction": 0,
+      "label": "Negative",
+      "probabilities": {
+        "Negative": 0.9682084321975708,
+        "Positive": 0.03179158270359039
+      }
+    }
+  ],
+  "blank_input_status": 422,
+  "home_status": 200
+}

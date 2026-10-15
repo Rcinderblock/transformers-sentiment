@@ -1,0 +1,143 @@
+{
+  "layers": 6,
+  "heads": 12,
+  "shape": [
+    1,
+    12,
+    8,
+    8
+  ],
+  "plots": [
+    "attention/attention_layer0_head0.png",
+    "attention/attention_layer3_head0.png",
+    "attention/attention_layer5_head0.png",
+    "attention/attention_layer0_head1.png",
+    "attention/attention_layer0_head2.png",
+    "attention/attention_layer0_head3.png",
+    "attention/attention_layer0_head4.png",
+    "attention/attention_layer0_head5.png",
+    "attention/attention_layer0_head6.png",
+    "attention/attention_layer0_head7.png",
+    "attention/attention_layer0_head8.png",
+    "attention/attention_layer0_head9.png",
+    "attention/attention_layer0_head10.png",
+    "attention/attention_layer0_head11.png",
+    "attention/negative_layer5_head0.png"
+  ],
+  "layer_statistics": [
+    {
+      "layer": 0,
+      "mean_max_weight": 0.5445533990859985,
+      "mean_entropy": 1.290676236152649
+    },
+    {
+      "layer": 1,
+      "mean_max_weight": 0.6508709192276001,
+      "mean_entropy": 1.030220866203308
+    },
+    {
+      "layer": 2,
+      "mean_max_weight": 0.655086100101471,
+      "mean_entropy": 1.0401743650436401
+    },
+    {
+      "layer": 3,
+      "mean_max_weight": 0.7428086400032043,
+      "mean_entropy": 0.8452180027961731
+    },
+    {
+      "layer": 4,
+      "mean_max_weight": 0.6840584874153137,
+      "mean_entropy": 1.0518367290496826
+    },
+    {
+      "layer": 5,
+      "mean_max_weight": 0.6890941262245178,
+      "mean_entropy": 1.063138484954834
+    }
+  ],
+  "first_layer_head_statistics": [
+    {
+      "head": 0,
+      "mean_max_weight": 0.3540312647819519,
+      "cls_top_token": "[SEP]"
+    },
+    {
+      "head": 1,
+      "mean_max_weight": 0.6409925222396851,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 2,
+      "mean_max_weight": 0.6999551057815552,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 3,
+      "mean_max_weight": 0.6245482563972473,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 4,
+      "mean_max_weight": 0.5292257070541382,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 5,
+      "mean_max_weight": 0.40091240406036377,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 6,
+      "mean_max_weight": 0.4186772108078003,
+      "cls_top_token": "the"
+    },
+    {
+      "head": 7,
+      "mean_max_weight": 0.5004865527153015,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 8,
+      "mean_max_weight": 0.4788670241832733,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 9,
+      "mean_max_weight": 0.5945204496383667,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 10,
+      "mean_max_weight": 0.7781908512115479,
+      "cls_top_token": "[CLS]"
+    },
+    {
+      "head": 11,
+      "mean_max_weight": 0.5142332911491394,
+      "cls_top_token": "[CLS]"
+    }
+  ],
+  "terrible_query_last_layer_head0": [
+    {
+      "token": "[SEP]",
+      "weight": 0.8659136891365051
+    },
+    {
+      "token": "movie",
+      "weight": 0.061437543481588364
+    },
+    {
+      "token": "this",
+      "weight": 0.015337981283664703
+    },
+    {
+      "token": "terrible",
+      "weight": 0.013135909102857113
+    },
+    {
+      "token": "it",
+      "weight": 0.012884541414678097
+    }
+  ]
+}
