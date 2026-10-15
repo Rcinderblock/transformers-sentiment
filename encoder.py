@@ -91,6 +91,11 @@ def similarity(text1, text2, tokenizer, model):
     return float(cosine_similarity(emb[:1], emb[1:])[0, 0])
 
 
+def get_cls_embeddings(texts, tokenizer, model, batch_size=32):
+    """CLS-признаки для классификатора; используется извлечение из этапа 2."""
+    return get_embeddings(texts, tokenizer, model, batch_size=batch_size)
+
+
 class CLSVectorizer:
     """Сохранённый преобразователь текста в CLS-признаки исходного трансформера."""
 
@@ -110,7 +115,7 @@ class CLSVectorizer:
             raise ValueError("Параметры исходной модели изменились")
         if self._encoder is None:
             self._encoder = load_encoder(self.device)
-        return get_embeddings(texts, *self._encoder)
+        return get_cls_embeddings(texts, *self._encoder)
 
     def __getstate__(self):
         return {**self.__dict__, "_encoder": None, "device": "auto"}
